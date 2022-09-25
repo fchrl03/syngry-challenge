@@ -32,7 +32,74 @@ a {
   margin-top: 9rem;
 }
 
+.mar-up {
+  margin-top: 7rem;
+}
+
+.image-services {
+  width: 100%;
+}
+
 .nav-bgcolor {
   background-color: #e3f2fd;
   transition: all 0.3s ease;
+}
+
+.image-services {
+  width: 100%;
+}
+
+.rounded-services {
+  background-color: #cfd4ed;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.bx-check {
+  color: #0d28a6;
+  font-size: 26px;
+}
+
+.circle-whyus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bx-like,
+.bx-purchase-tag,
+.bx-time,
+.bx-medal {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.get-started__box {
+  background-color: #0d28a6;
+}
+
+.circle-footer__sosmed {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0d28a6;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-footer__sosmed:hover {
+  color: white;
+}
+
+@media (max-width: 1017px) {
+  .mar-up-main {
+    margin-top: 6rem;
+  }
+  .mar-up {
+    margin-top: 4rem;
+  }
 }
