@@ -34,16 +34,16 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link text-black" data-bs-dismiss="offcanvas" href="#">Home</a>
+                  <a class="nav-link text-black" href="#our-services">Our Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-black" data-bs-dismiss="offcanvas" href="#">Link</a>
+                  <a class="nav-link text-black" href="#why-us">Why Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-black" data-bs-dismiss="offcanvas" href="#">Testimonial</a>
+                  <a class="nav-link text-black" href="#testimonial">Testimonial</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-black" data-bs-dismiss="offcanvas" href="#">FAQ</a>
+                  <a class="nav-link text-black" href="#faq">FAQ</a>
                 </li>
                 <a class="btn btn-success" href="#" role="button">Register</a>
               </ul>
@@ -57,10 +57,10 @@
         <div class="container">
           <a class="navbar-brand fw-bold" href="#">BCR</a>
           <div class="d-flex flex-row gap-3 align-items-center">
-            <a href="#" class="text-black">Our Services</a>
-            <a href="#" class="text-black">Why Us</a>
-            <a href="#" class="text-black">Testimonial</a>
-            <a href="#" class="text-black">FAQ</a>
+            <a href="#our-services" class="text-black">Our Services</a>
+            <a href="#why-us" class="text-black">Why Us</a>
+            <a href="#testimonial" class="text-black">Testimonial</a>
+            <a href="#faq" class="text-black">FAQ</a>
             <a class="btn btn-success" href="#" role="button">Register</a>
           </div>
         </div>
@@ -370,7 +370,7 @@
     <script type="text/javascript">
       const nav = document.querySelector('nav');
       window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 100) {
+        if (window.pageYOffset > 80) {
           nav.classList.add('nav-bgcolor', 'shadow');
         } else {
           nav.classList.remove('nav-bgcolor', 'shadow');
