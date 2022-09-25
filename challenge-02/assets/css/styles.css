@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner-image {
+  background-color: #f1f3ff;
+}
+
+.image-main {
+  width: 102%;
+}
+
+.mar-up-main {
+  margin-top: 9rem;
+}
+
+.nav-bgcolor {
+  background-color: #e3f2fd;
+  transition: all 0.3s ease;
+}
