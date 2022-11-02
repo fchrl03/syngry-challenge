@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner-image {
+  background-color: #f1f3ff;
+}
+
+.image-main {
+  width: 102%;
+}
+
+.mar-up-main {
+  margin-top: 9rem;
+}
+
+.mar-up {
+  margin-top: 7rem;
+}
+
+.image-services {
+  width: 100%;
+}
+
+.nav-bgcolor {
+  background-color: #e3f2fd;
+  transition: all 0.3s ease;
+}
+
+.image-services {
+  width: 100%;
+}
+
+.rounded-services {
+  background-color: #cfd4ed;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.bx-check {
+  color: #0d28a6;
+  font-size: 26px;
+}
+
+.circle-whyus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bx-like,
+.bx-purchase-tag,
+.bx-time,
+.bx-medal {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.get-started__box {
+  background-color: #0d28a6;
+}
+
+.circle-footer__sosmed {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0d28a6;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-footer__sosmed:hover {
+  color: white;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.owl-nav .owl-next,
+.owl-nav .owl-prev {
+  font-size: 20px !important;
+  width: 45px !important;
+  height: 45px !important;
+  font-weight: bold !important;
+  border-radius: 50% !important;
+  border: 2px solid #d1d1d1 !important;
+}
+
+.owl-nav .owl-next:hover,
+.owl-nav .owl-prev:hover {
+  background-color: #5cb85f !important;
+  border: none !important;
+}
+
+.box-testimoni {
+  background-color: #f1f3ff;
+  padding: 2.5rem;
+}
+
+.bxs-star {
+  color: #f9cc00;
+  font-size: 16px;
+}
+
+.search-bar {
+  padding: 10px;
+  margin-top: -2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.result {
+  height: fit-content;
+  display: flex;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-left: 3%;
+  justify-content: space-around;
+  flex-flow: wrap;
+  text-align: left;
+  color: black;
+}
+/* .img-testimoni {
+  width: 140px;
+  height: 140px;
+} */
+
+@media (max-width: 1017px) {
+  .mar-up-main {
+    margin-top: 6rem;
+  }
+  .mar-up {
+    margin-top: 4rem;
+  }
+}
