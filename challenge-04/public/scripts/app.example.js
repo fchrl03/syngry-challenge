@@ -20,10 +20,7 @@ class App {
     const dateTime = new Date(`${date} ${time}`);
     const passenger = document.getElementById('passenger').value;
 
-    if (driver === undefined || driver === '') {
-      alert('Please select a driver');
-      return;
-    } else if (passenger == '' && driver.toString() == 'true') {
+    if (passenger == '' && driver.toString() == 'true') {
       return Car.list.filter((car) => car.available === true && car.availableAt <= dateTime);
     } else if (passenger != '' && driver.toString() == 'true') {
       return Car.list.filter((car) => car.available === true && car.capacity >= passenger && car.availableAt <= dateTime);
